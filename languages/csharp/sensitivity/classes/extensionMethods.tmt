@@ -34,7 +34,7 @@ using ExtensionHelpers;
 ~[VAR_string@1]~ = (~[EXPR_string]~).ReturnArg(~[CONST_string]~);
 ~template end~
 
-~template extension_method_one_arg_neutral start~
+~template extension_method_addition_neutral start~
 ~[VAR_string@1]~ = ~[VAR_string@1]~.ReturnAdd(~[EXPR_string]~);
 ~template end~
 
