@@ -1,0 +1,32 @@
+~extensions start~
+~extensions import *~
+~extensions end~
+
+~[DEFINE_DynamicVar]~ -> dynamic9871
+~main body start~
+
+~template dynamic_cast_positive start~
+dynamic ~[DEFINE_DynamicVar]~ = ~[VAR_~[TYPE@1]~@1]~;
+if (~[DEFINE_DynamicVar]~ is ~[TYPE@1]~)
+{
+    ~[VAR_~[TYPE@1]~@1]~ = ~[DEFINE_DynamicVar]~;
+}
+else
+{
+    ~[VAR_~[TYPE@1]~@1]~ = ~[CONST_~[TYPE@1]~]~;
+}
+~template end~
+
+~template dynamic_cast_negative start~
+dynamic ~[DEFINE_DynamicVar]~ = ~[VAR_~[TYPE@1]~@1]~;
+if (~[DEFINE_DynamicVar]~ is ~[TYPE@1]~)
+{
+    ~[VAR_~[TYPE@1]~@1]~ = ~[CONST_~[TYPE@1]~]~;
+}
+else
+{
+    ~[VAR_~[TYPE@1]~@1]~ = ~[DEFINE_DynamicVar]~;
+}
+~template end~
+
+~main body end~

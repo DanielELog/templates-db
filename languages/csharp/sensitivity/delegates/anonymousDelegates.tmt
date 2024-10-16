@@ -20,12 +20,12 @@ Action<int, int> ~[DEFINE_AnonMethodName]~ = ~[DEFINE_ArglessDelegate]~;
 
 ~template get_from_anon_method_positive start~
 Func<string, string, string> ~[DEFINE_AnonMethodName]~ = ~[DEFINE_DelegateFst]~;
-~[VAR_string@1]~ = ~[DEFINE_AnonMethodName]~(~[VAR_string@1]~, ~[EXPR_string]~);
+~[VAR_string@1]~ = ~[DEFINE_AnonMethodName]~(~[VAR_string@1]~, ~[CONST_string]~);
 ~template end~
 
 ~template get_from_anon_method_negative start~
 Func<string, string, string> ~[DEFINE_AnonMethodName]~ = ~[DEFINE_DelegateFst]~;
-~[VAR_string@1]~ = ~[DEFINE_AnonMethodName]~(~[EXPR_string]~, ~[VAR_string@1]~);
+~[VAR_string@1]~ = ~[DEFINE_AnonMethodName]~(~[CONST_string]~, ~[VAR_string@1]~);
 ~template end~
 
 ~main body end~
