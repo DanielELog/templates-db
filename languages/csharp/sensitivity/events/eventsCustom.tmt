@@ -6,8 +6,8 @@
 ~extensions end~
 
 ~main body start~
-~helper import sensitivity/delegates/helpers/EventSubscriberClass~
-~helper import sensitivity/delegates/helpers/EventCallerCustomClass~
+~helper import sensitivity/events/helpers/EventSubscriberClass~
+~helper import sensitivity/events/helpers/EventCallerCustomClass~
 
 ~imports start~
 using DelegateHelpers;

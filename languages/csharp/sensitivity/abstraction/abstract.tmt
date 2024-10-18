@@ -15,9 +15,9 @@
 
 ~main body start~
 
-~helper import sensitivity/classes/helpers/AbstractClass~
-~helper import sensitivity/classes/helpers/InheritedAbstractClass~
-~helper import sensitivity/classes/helpers/InvertedAbstractClass~
+~helper import sensitivity/abstraction/helpers/AbstractClass~
+~helper import sensitivity/abstraction/helpers/InheritedAbstractClass~
+~helper import sensitivity/abstraction/helpers/InvertedAbstractClass~
 
 ~imports start~
 using AbstractHelpers;

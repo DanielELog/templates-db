@@ -13,7 +13,7 @@
 
 ~main body start~
 
-~helper import sensitivity/classes/helpers/partialClass~
+~helper import sensitivity/abstraction/helpers/partialClass~
 
 ~imports start~
 using PartialHelpers;
