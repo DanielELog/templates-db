@@ -1,8 +1,0 @@
-~class InterfaceConstrained start~
-namespace HelperGenerics;
-
-public class InterfaceConstrainedClass<T> where T : BinaryOpInterface
-{
-
-}
-~class end~
