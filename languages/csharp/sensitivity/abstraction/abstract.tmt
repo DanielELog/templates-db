@@ -5,6 +5,7 @@
 ~[DEFINE_VirtualizedName]~ -> virtual666
 
 ~[DEFINE_CreateInherited]~ -> var ~[DEFINE_InstanceName]~ = new ClassInherited();
+~[DEFINE_CreateInherited]~ -> var ~[DEFINE_InstanceName]~ = new SealedClassMember();
 ~[DEFINE_CreateInverted]~ -> var ~[DEFINE_InstanceName]~ = new ClassInverted();
 
 ~[DEFINE_CreateVirtualized]~ -> AClass ~[DEFINE_VirtualizedName]~ = (AClass)~[DEFINE_InstanceName]~;
@@ -18,6 +19,7 @@
 ~helper import sensitivity/abstraction/helpers/AbstractClass~
 ~helper import sensitivity/abstraction/helpers/InheritedAbstractClass~
 ~helper import sensitivity/abstraction/helpers/InvertedAbstractClass~
+~helper import sensitivity/abstraction/helpers/SealedMemberClass~
 
 ~imports start~
 using AbstractHelpers;

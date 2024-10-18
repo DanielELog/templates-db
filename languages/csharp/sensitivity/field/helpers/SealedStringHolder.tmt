@@ -3,7 +3,7 @@ namespace HelperFields;
 
 public sealed class SealedStringHolder
 {
-    public sealed string value;
+    public string value;
 
     public SealedStringHolder() : this("") {}
 

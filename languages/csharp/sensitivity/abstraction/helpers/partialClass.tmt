@@ -15,6 +15,8 @@ public partial class PartialClass
     {
         StrTwo = str;
     }
+
+    public partial void ReassignStrOne(string str);
 }
 ~class end~
 
@@ -25,7 +27,7 @@ public partial class PartialClass
 {
     public string StrTwo;
 
-    public void ReassignStrOne(string str)
+    public partial void ReassignStrOne(string str)
     {
         StrOne = str;
     }
